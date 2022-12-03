@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --cor_branca : hsl(0, 0%, 100%);
+    --cor_cinza: hsl(212, 45%, 89%);
+    --cor_azul_claro: hsl(220, 15%, 55%);
+    --cor_azul_escuro: hsl(218, 44%, 22%);
+}
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+    color: var(--cor_azul_claro);
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.attribution a:hover {
+    color: red;
+}
+
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor_cinza);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: calc(100vh - 1px);
+}
+
+.container {
+    background-color: var(--cor_branca);
+    max-width: 375px;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.201);
+}
+
+.container img {
+    width: 100%;
+    border-radius: 20px;
+}
+.texto {
+    padding: 20px;
+}
+
+.texto p {
+    font-weight: 400;
+    color: var(--cor_azul_claro);
+    padding-bottom: 15px;
+}
+
+.texto h1 {
+    color: var(--cor_azul_escuro);
+    font-weight: 700;
+    padding-bottom: 12px;
+}
