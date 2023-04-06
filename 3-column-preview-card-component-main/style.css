@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 100vh;
+}
+
+/* Main conteiner */
+
+.conteiner-principal {
+    max-width: 62.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 0.6rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.41);
+}
+
+/* Conteiners */
+
+.divisao-linhas {
+    display: grid;
+    grid-template-rows: 0.5fr 1fr auto auto;
+    gap: 1rem;
+}
+
+.sedans-conteudo {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2rem;
+    border-radius: 0.5rem 0 0 0.5rem;       
+}
+
+.suvs-conteudo {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2rem;
+}
+
+.luxury-conteudo {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+/* global */
+
+.icone {
+    padding: 1rem;
+}
+
+.titulo {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    letter-spacing: 1.2px;
+    padding: 1rem;
+    font-size: 2.5rem;
+}
+
+.paragrafo {
+    font-size: 0.93rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 0 0 5rem 0;      
+    letter-spacing: 1.1px;
+    color:  hsla(0, 0%, 100%, 0.75);
+    padding: 1rem;
+}
+
+.botao {
+    margin-left: 0.8rem;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 6rem;
+    margin-bottom: 1rem;   
+    max-width: 8rem;
+    text-align: center;
+    padding: 0.9rem;
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+}
+
+.botao-sedans {
+    color: hsl(31, 77%, 52%);
+}
+
+.botao-suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+.botao-luxury{
+    color: hsl(179, 100%, 13%);
+}
+
+@media (max-width:1000px) {
+    .conteiner-principal {
+        grid-template-columns: 1fr;
+        width: 60vw;
+        max-height: 100vh;
+        box-shadow: none;
+    }
+
+    .titulo {
+        font-size: 2.8rem;
+    }
+    .paragrafo {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .sedans-conteudo {
+        border-radius: 0;
+    }
+
+    .luxury-conteudo {
+        border-radius: 0;
+    }
+}
+
+@media (max-width:650px) {
+    .conteiner-principal {
+        width: 100vh;
+        box-shadow: none;
+    }
+}
+
+
+
+
+
