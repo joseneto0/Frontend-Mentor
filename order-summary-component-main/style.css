@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg), linear-gradient(hsl(225, 100%, 94%), hsla(228, 100%, 98%, 0.352));
+    background-repeat: no-repeat;
+    background-position: top bottom;
+    background-size: contain;
+}
+
+p {
+    font-size: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+.principal  {
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1fr, 6);
+    text-align: center;
+    justify-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    gap: 30px;
+}
+
+.principal-imagem {
+    border-radius: 10px 10px 0 0;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin: 0 10px 0 10px;
+    margin-top: 10px;
+}
+
+.paragrafo {
+    font-weight: 500;
+    color:  hsl(224, 23%, 55%);
+    margin: 0 50px 0 50px;
+    letter-spacing: .1px;
+}
+
+.planos {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    background-color: hsl(225, 100%, 98%);
+    align-items: center;
+    border-radius: 10px;
+    width: 320px;
+    gap: 10px;
+}
+
+.circulo {
+    height: 41px;
+    width: 41px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.planos span {
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.planos-paragrafo {
+    padding: 20px 10px;
+    font-weight: 700;
+}
+
+.change {
+    align-self: center;
+    color: hsl(245, 75%, 52%);
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.change:hover{
+    color: hsla(245, 75%, 52%, 0.593);
+
+    text-decoration: none;
+}
+
+.botao {
+    display: block;
+    width: 320px;
+    background-color: hsl(245, 75%, 52%);
+    padding: 15px 0;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    box-shadow: 1px 10px 30px hsla(245, 75%, 52%, 0.333);
+}
+
+.botao:hover {
+    background-color: hsla(245, 75%, 52%, 0.602);
+}
+
+
+.cancelar {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-decoration: none;
+}
+
+.cancelar:hover{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+@media (max-width: 450px) {
+    .body {
+        background-image: url(images/pattern-background-mobile.svg), linear-gradient(hsl(225, 100%, 94%), hsla(228, 100%, 98%, 0.502));
+        background-size: 0;
+    }
+    .principal {
+        max-width: 360px;
+    }
+}
