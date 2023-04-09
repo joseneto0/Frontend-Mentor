@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+
+
+.main {
+    max-width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.imagem {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+
+.imagem-principal img {
+    display: block;
+}
+
+.imagem-principal {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.overlay-imagem-principal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: hsla(178, 100%, 50%, 0.477);
+    display: none;
+    border-radius: 10px;
+}
+
+.overlay-imagem-principal img {
+    position: absolute;
+    width: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imagem:hover .overlay-imagem-principal{
+    display: block;
+}
+
+.titulo-nodec {
+    text-decoration: none;
+}
+.titulo {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    margin-top: 20px;
+    
+}
+
+.titulo:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.paragrafo {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    margin-top: 15px;
+    letter-spacing: 0.1;
+}
+
+.preco {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.preco-cont {
+    display: flex;
+    gap: 5px;
+}
+
+.cont1 {
+    justify-content: start;
+}
+
+.cont2 {
+    justify-content: end;
+}
+
+.preco p {
+    font-size: 15px;
+}
+
+.custo {
+    color: hsl(178, 100%, 50%);
+}
+
+.preco img {
+   height: 20px;
+}
+
+.days-left {
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.linha {
+    margin-top: 20px;
+    border-top: .5px solid hsl(215, 32%, 27%);
+    background-color: hsl(215, 32%, 27%);
+    width: 100%;
+    height: .5px;
+    border: 0;
+}
+
+.creation {
+    display: flex;
+    margin: 20px 0 10px 0;
+    gap: 15px;
+    align-items: center;
+}
+
+.creation img {
+    max-width: 100%;
+    height: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.creation-paragrafo {
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.name:hover {
+    color: hsl(178, 100%, 50%);
+}
