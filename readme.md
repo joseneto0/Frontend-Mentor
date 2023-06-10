@@ -7,3 +7,4 @@
 * [Order Summary](https://joseneto0.github.io/Frontend-Mentor/order-summary-component-main/)
 * [NFT Preview Card](https://joseneto0.github.io/Frontend-Mentor/nft-preview-card-component-main/)
 * [Single Price Grid](https://joseneto0.github.io/Frontend-Mentor/single-price-grid-component-main/)
+* [Huddle Landing Page](https://joseneto0.github.io/Frontend-Mentor/huddle-landing-page-with-single-introductory-section-master/)
