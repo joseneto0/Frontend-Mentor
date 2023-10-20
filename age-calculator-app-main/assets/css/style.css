@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 94%);
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.box {
+    width: 30vw;
+    height: 50vh;
+    background-color: hsl(0, 0%, 100%);
+    padding: 50px;
+    border-radius: 20px 20px 150px 20px;    
+}
+
+.date {
+    display: flex;
+    gap: 20px;
+}
+
+.input {
+    max-width: 90px;
+    max-height: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid hsla(0, 1%, 44%, 0.542); 
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+
+.input:hover, .input:active, .input:focus {
+    border: 1px solid hsl(259, 100%, 65%);
+}
+
+.input-text {
+    font-size: 12px;
+    font-weight: 400i;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: hsl(0, 1%, 44%);
+}
+
+.meio {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+hr {
+    margin-top: 35px;
+    width: 99%;
+    height: 0;
+    opacity: 0.4;
+}
+
+.linha2 {
+    display: none;
+}
+
+.bola {
+    display: grid;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: hsl(259, 100%, 65%);
+    height: 70px;
+    width: 70px;    
+}
+
+.bola img {
+    display: block;
+    margin: auto;
+    width: 40px;
+}
+
+.bola:hover{
+    background-color: black;
+}
+
+.datas {
+    color: hsl(259, 100%, 65%);
+}
+.data {
+    color: hsl(0, 0%, 8%);
+    font-size: 70px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+@media (max-width: 1600px){
+    .meio {
+        grid-template-columns: 1fr 0.2fr 1fr;
+        margin-top: 30px;
+
+    }
+
+    .linha2 {
+        display: block;
+    }
+
+    hr {
+        margin-top: 25px;
+    }
+
+    .bola {
+        width: 50px;
+        height: 50px;
+    }
+
+    .bola img {
+        width: 30px;
+    }
+    
+    .input{
+        max-width: 90px;
+    }
+}
+
+@media (max-width: 1300px){
+    .input {
+        max-width: 60px;
+        font-size: 20px;
+    }
+
+    .data {
+        margin-top: 25px;
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 1100px){
+   .box {
+        width: 35vw;
+   }
+
+   .data {
+    margin-top: 30px;
+   }
+}
+
+@media (max-width: 950px){
+    .box {
+        width: 40%;
+        height: 60%;
+    }
+
+    .data {
+        margin-top: 40px;
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 750px){
+    .box {
+        width: 60vw;
+    }
+
+    
+}
+
+@media (max-width: 520px){
+    .box {
+        height: 50vh;
+    }
+
+    .date {
+        gap: 20px;
+    }
+
+    .input {
+        margin-top: 5px;
+        max-width: 50px;
+        font-size: 16px;
+    }
+
+    .data {
+        margin-top: 10px;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 450px){
+    .date {
+        gap: 10px;
+    }
+
+    .input {
+        max-width: 40px;
+        font-size: 14px;
+    }
+
+    .data {
+        margin-top: 10px;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 300px){
+    .box {
+        width: 100vw;
+        height: 50vh;
+    }
+} 
+
+@media (min-width: 380px) and (max-width: 500px) and (max-height: 950px){
+    .data {
+        margin-top: 30px;
+        font-size: 45px;
+    }
+}
+
+
+@media (min-width: 750px) and (max-width: 1400px) and (max-height: 1400px){
+    .box {
+        width: 40vw;
+        height: 40vh;
+    }
+
+    .data {
+        margin-top: 25px;
+    }
+}
