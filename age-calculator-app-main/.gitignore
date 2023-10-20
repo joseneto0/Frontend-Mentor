@@ -3,5 +3,7 @@
 
 *.xd
 
+design
 README-template.md
 style-guide.md
+.gitignore

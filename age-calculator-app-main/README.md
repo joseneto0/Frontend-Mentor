@@ -11,8 +11,8 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/joseneto0/Frontend-Mentor/tree/main/age-calculator-app-main](https://github.com/joseneto0/Frontend-Mentor/tree/main/age-calculator-app-main)
+- Live Site URL: [https://joseneto0.github.io/Frontend-Mentor/age-calculator-app-main/](https://joseneto0.github.io/Frontend-Mentor/age-calculator-app-main/)
 
 ### Built with
 
