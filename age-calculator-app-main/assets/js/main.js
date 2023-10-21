@@ -11,7 +11,7 @@ function handleClick(event){
             if ((month % 2 != 0) || month == 12 || month == 8 || month == 10 || month == 12){
                 dia = 31 - (day - dataAtual.getDate());
             } else {
-                dia = dataAtual.getDate() - day;
+                dia = day - dataAtual.getDate();
             }
         } else {
             dia = dataAtual.getDate() - day;
