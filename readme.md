@@ -10,3 +10,4 @@
 * [Huddle Landing Page](https://joseneto0.github.io/Frontend-Mentor/huddle-landing-page-with-single-introductory-section-master/)
 * [Age Calculator App](https://joseneto0.github.io/Frontend-Mentor/age-calculator-app-main/)
 * [Interactive Rating Component](https://joseneto0.github.io/Frontend-Mentor/interactive-rating-component/)
+* [Recipe page](https://joseneto0.github.io/Frontend-Mentor/recipe-page-main/)
